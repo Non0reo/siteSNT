@@ -24,6 +24,7 @@ button{
   border-radius: 20px;
   margin-bottom: 25px;
   margin-top: 20px;
+  transition: 0.5s;
 }
 
 button.redButton{

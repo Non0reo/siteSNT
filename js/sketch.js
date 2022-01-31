@@ -7,7 +7,7 @@ let textBox = [];
 let texts = ["f(x) = x²", "1 + 1 = 2", "(a + b)²", "sqrt(2)", "cos(x)", "f(x) = ax + b", "]-∞ ; +∞[", "1/0 = ∞?", "a*b%k", "sqrt(x)**2 = x", "54 - x = 9"];
 
 function preload() {
-  font = loadFont('/css/font/coolvetica.otf');
+  font = loadFont('css/font/coolvetica.otf');
 }
 
 function setup() {
