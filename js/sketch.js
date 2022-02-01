@@ -38,6 +38,7 @@ function draw() {
     textBox[i].display();
   }
 
+  translate(0, 0, 30);
   rotateX(millis() / rand1);
   rotateY(millis() / rand2);
   rotateZ(millis() / rand3);
