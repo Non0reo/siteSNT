@@ -4,7 +4,7 @@ let rand3;
 let font;
 
 let textBox = [];
-let texts = ["f(x) = x²", "1 + 1 = 2", "(a + b)²", "sqrt(2)", "cos(x)", "f(x) = ax + b", "]-∞ ; +∞[", "1/0 = ∞?", "a*b%k", "sqrt(x)**2 = x", "54 - x = 9"];
+let texts = ["f(x) = x²", "1 + 1 = 2", "(a + b)²", "sqrt(2)", "cos(x)", "f(x) = ax + b", "]-∞ ; +∞[", "1/0 = ∞?", "a*b%k", "sqrt(x)**2 = x", "54 - x = 9", "V = 1/2*B*H", "	Δy/Δx", "p = m/Vm"];
 
 function preload() {
   font = loadFont('css/font/coolvetica.otf');
@@ -29,8 +29,8 @@ function setup() {
 function draw() {
   background(20);
 
-  fill(255, 0, 0);
-  ellipse(50, 0, 10, 10);
+  /* fill(255, 0, 0);
+  ellipse(50, 0, 10, 10); */
 
   fill(255);
   for (let i = 0; i < textBox.length; i++) {
@@ -58,6 +58,7 @@ class Text{
     if(this.y <= -height/1.7){
       this.y = height;
       this.x = random(-width, width);
+      this.speed = random(2, 8);
     }
   }
 
