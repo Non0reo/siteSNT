@@ -28,7 +28,7 @@ button{
 }
 
 button.redButton{
-  cursor: url('css/img/fraise32.png'), pointer;
+  cursor: url('css/img/fraise32.png');
   color: black;
   background-color: white;
   border: 4px solid #af4c4c;
