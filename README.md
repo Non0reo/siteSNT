@@ -1,3 +1,3 @@
 # siteSNT
 
-A test site for my conputer science class
+A test site for my computer science class
